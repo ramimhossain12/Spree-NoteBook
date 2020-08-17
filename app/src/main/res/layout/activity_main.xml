@@ -5,14 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@drawable/toto"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="new"
-    android:gravity="center_vertical"
-    android:id="@+id/btnnewID"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        app:lottie_fileName="success.json"
+        android:scaleType="fitCenter"
+        app:lottie_autoPlay="true"
+        android:layout_centerInParent="true"
+        app:lottie_loop="true"/>
+
+
+
+    <ProgressBar
+        android:id="@+id/progreesbarID"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:layout_margin="20dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/pppp"
+        android:gravity="center"
+        android:text="Welcome To Spree   "
+        android:textColor="#E91E63"
+        android:textSize="35sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/pppp"
+        android:gravity="center"
+        android:text="NoteBook  "
+        android:textColor="#FFFFFF"
+        android:textSize="35sp">
+
+    </TextView>
+
 
 </LinearLayout>
