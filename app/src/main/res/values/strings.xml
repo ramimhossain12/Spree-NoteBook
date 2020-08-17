@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spree Notebook</string>
+
+    <string name="notes">NOTES</string>
+    <string name="subject">Subject</string>
+    <string name="ok">Ok</string>
+    <string name="save">Save</string>
+    <string name="note">Note Pad</string>>
+    <string name="about_o">Md.Ramim Hossain\nEmail:ramim.cse.info@gmail.com</string>
+    <string name="about_t">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
+
+</resources>
