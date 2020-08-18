@@ -61,6 +61,11 @@ public class NoteRecyclerViewAdapter extends RecyclerView.Adapter<NoteRecyclerVi
 
             parentLayout = view.findViewById(R.id.parent_layout);
             textViewNote = view.findViewById(R.id.textViewNote);
+
+
         }
+
     }
+
+
 }

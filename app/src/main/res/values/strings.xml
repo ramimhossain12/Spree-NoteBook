@@ -10,6 +10,7 @@
     <string name="button_Text">Exit</string>
     <string name="title_Text">Alert title</string>
     <string name="message_Text">Do you want to exit ?</string>
+    <string name="condition">Notebook is a very basic text-editing program that comes as an included application on Android operating systems. Notepad is great for writing short documents that you want to save in plain text. Notepad has some additional features to take advantage of as well. However, Notepad is just a text editor, so images are not compatible. Learning the basics of Notebook is quick and easy. In this notebook only 200 words 1,217 characters can be written and Swipe Delete !</string>
     <string name="about_t">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
-
+<string name="condition1">Notepad is a simple text editor for android and a basic text-editing program which enables android users to create documents. </string>
 </resources>
