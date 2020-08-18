@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startApp() {
 
-        Intent intent= new Intent(MainActivity.this,CreateNoteActivity.class);
+        Intent intent= new Intent(MainActivity.this,NotesActivity.class);
         startActivity(intent);
         finish();
     }
