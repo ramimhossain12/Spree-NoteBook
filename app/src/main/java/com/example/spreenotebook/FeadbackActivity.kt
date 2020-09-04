@@ -22,7 +22,7 @@ class FeadbackActivity : AppCompatActivity(), View.OnClickListener {
         nameeditText = findViewById(R.id.nameEditTextID)
         massegeEditText = findViewById(R.id.massegeEditTextID)
         ratingBar = findViewById(R.id.rattingbarID)
-        textView = findViewById(R.id.textViewIDI)
+        textView = findViewById(R.id.ratingtextViewIDI)
         ratingBar?.setOnRatingBarChangeListener(OnRatingBarChangeListener { ratingBar, rating, fromUser -> textView?.setText("Value :" + ratingBar.progress) })
         sendButton?.setOnClickListener(this)
         clearButton?.setOnClickListener(this)
@@ -32,12 +32,14 @@ class FeadbackActivity : AppCompatActivity(), View.OnClickListener {
         try {
             val name = nameeditText!!.text.toString()
             val massege = massegeEditText!!.text.toString()
+            val text = textView!!.text.toString()
             if (view.id == R.id.sendButtonID) {
                 val intent = Intent(Intent.ACTION_SEND)
                 intent.type = "text/email"
                 intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("ramimhossain6242@gmail.com"))
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Feedback from App")
                 intent.putExtra(Intent.EXTRA_TEXT, "Name :$name\n Message :$massege")
+                intent.putExtra(Intent.EXTRA_TEXT, "Text :$text\n Message :$massege")
                 startActivity(Intent.createChooser(intent, "Feedback with"))
             } else if (view.id == R.id.clearButtonID) {
                 nameeditText!!.setText("")

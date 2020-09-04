@@ -31,7 +31,7 @@
         android:textStyle="italic"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:id="@+id/textViewIDI"/>
+        android:id="@+id/ratingtextViewIDI"/>
 
     <LinearLayout
         android:layout_weight="0.5"

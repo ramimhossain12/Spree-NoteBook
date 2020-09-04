@@ -79,7 +79,7 @@ public class CreateNoteActivity extends AppCompatActivity implements View.OnClic
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/type");
             String subject = "Note_Book app";
-            String body ="This app  is very useful .\n com.example.notepad";
+            String body ="This app  is very useful .\n com.example.spreenotebook";
             intent.putExtra(Intent.EXTRA_SUBJECT,subject);
             intent.putExtra(Intent.EXTRA_TEXT,body);
             startActivity(Intent.createChooser(intent,"share with"));
